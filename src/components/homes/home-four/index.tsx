@@ -9,13 +9,13 @@ import AddressBanner from './AddressBanner'
 import FancyBanner from './FancyBanner'
 import FooterThree from '@/layouts/footers/FooterThree'
 import HeroBanner from './HeroBanner'
-import HeaderTwo from '@/layouts/headers/HeaderTwo'
+import HeaderFive from '@/layouts/headers/HeaderFive'
 import PropertyOne from './PropertyOne'
 
 const HomeFour = () => {
   return (
     <>
-      <HeaderTwo style_1={false} style_2={true} />
+      <HeaderFive style_1={false} style_2={true} />
       <HeroBanner />
       <PropertyOne style_1={false} style_2={false} />
       <PropertyTwo />
